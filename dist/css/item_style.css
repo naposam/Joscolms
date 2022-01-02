@@ -1,0 +1,72 @@
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #e2e2e2;
+}
+
+#plans, #plans ul, #plans ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#pricePlans {
+    width: 155px;    
+}
+
+    #pricePlans #plans .plan {
+        background: #fff;
+        float: left;
+        width: 100%;
+        text-align: center;             
+    }
+
+    .planContainer .options li {
+        font-weight: 700;
+        color: #364762;
+        line-height: 2.5;
+    }
+
+        .planContainer .options li span {           
+            color: #979797;
+        }
+
+.planContainer .button a {
+    text-decoration: none;
+    color: #3e4f6a;
+    font-weight: 700;
+    line-height: 2.6em;
+    border: 2px solid #3e4f6a;
+    display: inline-block;
+    width: 100px;
+    height: 2.8em;
+    border-radius: 4px;
+    margin:10px
+}
+
+    .planContainer .button a.bestPlanButton {
+        color: #fff;
+        background: #f7814d;
+        border: 2px solid #f7814d;
+    }
+
+@media screen and (min-width: 1025px) {
+
+        #pricePlans #plans .plan {
+            margin:5px;                                 
+        }
+
+        .planContainer .button a:hover {
+            background: #3e4f6a;
+            color: #fff;
+        }
+
+        .planContainer .button a.bestPlanButton:hover {
+            background: #ff9c70;
+            border: 2px solid #ff9c70;
+        }
+}
